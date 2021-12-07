@@ -24,6 +24,7 @@ jobs:
 
       - name: Get dependencies and run test
         run: |
+          go get
           go test ./...
 
       - name: Build
