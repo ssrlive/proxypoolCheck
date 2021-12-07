@@ -9,11 +9,11 @@
 
 ## 简介
 
-此项目为[proxypool](https://github.com/sansui233/proxypool)的代理池节点可用性检测部分，并提供检测后可用的代理。
+此项目为[proxypool](https://github.com/ssrlive/proxypool)的代理池节点可用性检测部分，并提供检测后可用的代理。
 
 此项目推荐在本地（即您家里）部署，或是的中国大陆服务器上运行，以提升代理池节点的实际可用比例。
 
-在使用此项目之前，您应该有一个（或知道一个）可用的[proxypool](https://github.com/sansui233/proxypool)服务器。
+在使用此项目之前，您应该有一个（或知道一个）可用的[proxypool](https://github.com/ssrlive/proxypool)服务器。
 
 
 ## 安装和运行
@@ -22,7 +22,7 @@
 
 ### 1. 用构建好的（推荐）
 
-从[releases](https://github.com/Sansui233/proxypoolCheck/releases)中下载
+从[releases](https://github.com/ssrlive/proxypoolCheck/releases)中下载
 
 将下载的文件重命名为proxypoolcheck（可选）
 
@@ -44,7 +44,7 @@ chmod +775 proxypoolcheck
 
 确保安装golang，然后下载源码
 ```sh
-$ go get -u -v github.com/Sansui233/proxypoolCheck
+$ go get -u -v github.com/ssrlive/proxypoolCheck
 ```
 
 运行

@@ -2,10 +2,10 @@ package app
 
 import (
 	"fmt"
-	"github.com/Sansui233/proxypool/pkg/healthcheck"
-	"github.com/Sansui233/proxypool/pkg/provider"
-	"github.com/Sansui233/proxypoolCheck/config"
-	"github.com/Sansui233/proxypoolCheck/internal/cache"
+	"github.com/ssrlive/proxypool/pkg/healthcheck"
+	"github.com/ssrlive/proxypool/pkg/provider"
+	"github.com/ssrlive/proxypoolCheck/config"
+	"github.com/ssrlive/proxypoolCheck/internal/cache"
 	"log"
 	"time"
 )
